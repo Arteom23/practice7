@@ -1,0 +1,169 @@
+@media (max-width:375px){
+    /* navbar part start===========> */
+    .container {
+        width: 90%;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        line-height: 0px;
+    }
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 90px;
+    }
+    .logo img{
+        width: 70px;
+        height: 30px;
+    }
+    .logo .toggle_btn {
+        color: #e3e3e3;
+        width: 20px;
+        height: 20px;
+        background: transparent;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .navigation ul {
+        display: none;
+        width:100%;
+        text-align: center;
+    }
+    .navigation.active ul{
+        display: block;
+        height: 150px;
+    }
+    .navigation ul li {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .navigation ul li a {
+        font-size: 9px;
+    }
+    
+    /* ==========navbar part end*/
+
+     /* Banner part start===========> */
+     .banner_txt {
+        padding-top: 170px;
+        padding-bottom: 130px;
+    }
+    .banner_txt h1{
+        font-size: 25px;
+        display: block;
+    }
+    .banner_txt h2{
+        font-size: 20px;
+    }
+    .banner_txt p{
+        font-size: 7px;
+    }
+     /* <==========Banner part end*/
+
+     /* <===================Service Part Start */
+     .intro {
+        padding: 40px 0px;
+    }
+     .intro h2{
+        font-size: 11px;
+    }
+    .intro p{
+        font-size: 7px;
+        padding-top: 14px;
+    }
+    .my_services h2{
+        font-size: 12px;
+        padding-bottom: 15px;
+    }
+    .providing{
+        flex-direction: column;
+    }
+    .service:first-child{
+        margin-right: 0px !important;
+        margin-bottom: 17px;
+    }
+    .service:nth-child(2){
+        margin-right: 0px !important;
+        margin-bottom: 17px;
+    }
+    picture{
+        width: 301px;
+        height: 192px;
+    }
+    picture img {
+        width: 99%;
+        height: 100%;
+    }
+    .service_txt{
+        padding: 25px 0px 10px;
+    }
+    .service_txt p{
+        padding-top: 17px;
+        font-size: 11px;
+    }
+     /* Service Part End================> */
+
+
+     /* <============portfolio Part Start==========> */
+    #portfolio{
+        padding-bottom: 38px;
+    }
+     .heading h2{
+        font-size: 13px;
+    }
+     .heading h2::before{
+        width: 50px;
+        top: 39%;
+        left: -65px;
+    }
+    .heading h2::after{
+        width: 50px;
+        top: 39%;
+        right: -65px;
+    }
+    .instahram_shots{
+        flex-direction: column;
+    }
+    .instahram_shots img{
+        width: 100%;
+        height: 228px;
+    }
+     /* <============portfolio Part End==========> */
+
+     /* <============journal Part Start==========> */
+     .jurnals{
+        flex-direction: column;
+        padding-top: 20px;
+     }
+     .jurnal_name{
+        padding: 28px 19px 24px;
+    }
+     .jurnal_name h2{
+        font-size: 14px;
+    }
+     .my_jurnal:nth-child(1){
+        margin-right: 0px !important;
+        margin-bottom: 22px;
+    }
+    .my_jurnal:nth-child(2){
+        margin-right: 0px !important;
+        margin-bottom: 22px;
+    }
+    .opacity{
+        width: 332px;
+        height: 224px;
+    }
+    .reference_info p{
+        padding: 25px 21px;
+        font-size: 11px;
+    }
+    .more{
+        padding: 0px 21px 25px 21px;
+    }
+     /* <============journal Part End==========> */
+}
